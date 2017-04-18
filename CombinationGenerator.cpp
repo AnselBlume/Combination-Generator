@@ -110,6 +110,8 @@ void CGen::incrementIndices()
 void CGen::flattenIndices( int index )
 {
     // Make all numbers after index be one plus the previous
+    int startNum = indices[index];
+
     for ( int i = index + 1; i < indices.size(); i++ )
-        indices[i] = indices[i - 1] + 1;
+        indices[i] = ++startNum;
 }
