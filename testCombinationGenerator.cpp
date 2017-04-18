@@ -7,6 +7,11 @@ int main()
 {
     vector<int> set = { 3, 7, 1, 18, 19, 20 };
 
+    cout << "Input set: \n";
+    printVector( set );
+    cout << endl;
+
+    cout << "Testing 3-combinations" << endl;
     CombinationGenerator * cg = new CombinationGenerator( set, 3 );
 
     for ( int i = 0; i < 21; i++ )
@@ -17,7 +22,7 @@ int main()
     }
 
 
-    cout << "Testing combination choose zero." << endl << endl;
+    cout << "Testing 0-combinations" << endl << endl;
     delete cg;
 
     cg = new CombinationGenerator( set, 0 );
@@ -29,7 +34,7 @@ int main()
         cout << endl;
     }
 
-    cout << "Testing combination choose one." << endl << endl;
+    cout << "Testing 1-combinations." << endl << endl;
     delete cg;
 
     cg = new CombinationGenerator( set, 1 );
@@ -41,7 +46,6 @@ int main()
         cout << endl;
     }
   
-
     delete cg;
     return 0;
 }
