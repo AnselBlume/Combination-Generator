@@ -1,0 +1,72 @@
+Input set: 
+<3, 7, 1, 18, 19, 20>
+
+Testing 3-combinations
+----------------------
+
+Next combination: <3, 7, 1>
+
+Next combination: <3, 7, 18>
+
+Next combination: <3, 7, 19>
+
+Next combination: <3, 7, 20>
+
+Next combination: <3, 1, 18>
+
+Next combination: <3, 1, 19>
+
+Next combination: <3, 1, 20>
+
+Next combination: <3, 18, 19>
+
+Next combination: <3, 18, 20>
+
+Next combination: <3, 19, 20>
+
+Next combination: <7, 1, 18>
+
+Next combination: <7, 1, 19>
+
+Next combination: <7, 1, 20>
+
+Next combination: <7, 18, 19>
+
+Next combination: <7, 18, 20>
+
+Next combination: <7, 19, 20>
+
+Next combination: <1, 18, 19>
+
+Next combination: <1, 18, 20>
+
+Next combination: <1, 19, 20>
+
+Next combination: <18, 19, 20>
+
+Next combination: <>
+
+Testing 0-combinations
+----------------------
+
+Next Combination: <>
+
+Next Combination: <>
+
+Testing 1-combinations
+----------------------
+
+Next combination: <3>
+
+Next combination: <7>
+
+Next combination: <1>
+
+Next combination: <18>
+
+Next combination: <19>
+
+Next combination: <20>
+
+Next combination: <>
+
